@@ -2,15 +2,26 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
-body {
-  background: red;
+:root {
+  --background-color: #9ea3b0;
 }
+
 h1 {
   font-family: "Playfair Display", serif;
-  font-weight: bold;
+  color: #fae1df;
+  font-size: 96px;
 }
 
 p {
-  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
+  color: #e4c3ad;
+  font-size: 28px;
+}
+
+.hero {
+  background: var(--background-color);
+  text-align: center;
+  height: 900px;
+  padding: 250px;
 }
