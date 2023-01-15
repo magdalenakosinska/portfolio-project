@@ -33,20 +33,31 @@ body {
 }
 
 .content-container {
-  background: var(--background-color);
+  background: var(--beige-color);
   padding: 160px 20px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
-  color: var(--pink-color);
+  color: var(--darkest-color);
+}
+
+.content a {
+  font-size: 30px;
+  font-family: var(--secondary-font-family);
+  text-decoration: underline;
+  color: var(--darkest-color);
+}
+.content p {
+  font-size: 20px;
+  font-family: var(--secondary-font-family);
 }
 
 .content-container p {
   font-size: 18px;
   font-family: var(--heading-font-family);
-  color: var(--beige-color);
+  color: var(--darkest-color);
 }
 
 .content-container img {
