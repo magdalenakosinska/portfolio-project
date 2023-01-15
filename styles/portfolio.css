@@ -4,16 +4,21 @@ font-family: 'Roboto', sans-serif; */
 
 :root {
   --background-color: #9ea3b0;
+  --darkest-color: #546A7B;
+  --pink-color: #fae1df;
+  --beige-color: #E4C3AD; 
+  --heading-font-family: 'Playfair Display', serif;
+  --secondary-font-family: font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   color: #fae1df;
   font-size: 96px;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: normal;
   color: #e4c3ad;
   font-size: 36px;
