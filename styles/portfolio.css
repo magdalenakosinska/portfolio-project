@@ -21,7 +21,6 @@ p {
 
 .hero {
   background: var(--background-color);
-  text-align: center;
   height: 900px;
   padding: 250px;
 }
