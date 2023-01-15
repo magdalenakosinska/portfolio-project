@@ -4,28 +4,64 @@ font-family: 'Roboto', sans-serif; */
 
 :root {
   --background-color: #9ea3b0;
-  --darkest-color: #546A7B;
+  --darkest-color: #546a7b;
   --pink-color: #fae1df;
-  --beige-color: #E4C3AD; 
-  --heading-font-family: 'Playfair Display', serif;
-  --secondary-font-family: font-family: 'Poppins', sans-serif;
+  --beige-color: #e4c3ad;
+  --heading-font-family: "Playfair Display", serif;
+  --secondary-font-family: "Poppins", sans-serif;
 }
 
-h1 {
+body {
+  background: var(--beige-color);
+}
+.hero {
+  background: var(--beige-color);
+  padding: 160px 20px;
+}
+
+.hero h1 {
   font-family: var(--heading-font-family);
-  color: #fae1df;
+  color: var(--darkest-color);
   font-size: 96px;
 }
 
-p {
+.hero p {
   font-family: var(--secondary-font-family);
   font-weight: normal;
-  color: #e4c3ad;
+  color: var(--darkest-color);
   font-size: 36px;
 }
 
-.hero {
+.content-container {
   background: var(--background-color);
-  height: 900px;
-  padding: 250px;
+  padding: 160px 20px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  color: var(--pink-color);
+}
+
+.content-container p {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+  color: var(--beige-color);
+}
+
+.content-container img {
+  border-radius: 10px;
+}
+
+.content {
+  margin: 30px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 10px;
+  }
+  .hero h1 {
+    font-size: 64px;
+  }
 }
