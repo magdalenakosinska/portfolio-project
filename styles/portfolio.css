@@ -42,7 +42,12 @@ body {
   font-family: var(--heading-font-family);
   color: var(--darkest-color);
 }
-
+.content h3 {
+  font-size: 30px;
+  font-family: var(--secondary-font-family);
+  text-decoration: underline;
+  color: var(--darkest-color);
+}
 .content a {
   font-size: 30px;
   font-family: var(--secondary-font-family);
@@ -68,11 +73,20 @@ body {
   margin: 30px;
 }
 
+.linkedin a {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+  color: var(--darkest-color);
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 80px 10px;
   }
   .hero h1 {
     font-size: 64px;
+  }
+  .links {
+    padding: 20px;
   }
 }
