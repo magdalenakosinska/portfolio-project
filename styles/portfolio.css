@@ -14,6 +14,21 @@ font-family: 'Roboto', sans-serif; */
 body {
   background: var(--beige-color);
 }
+
+nav {
+  padding: 20px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--darkest-color);
+  font-size: 20px;
+}
 .hero {
   background: var(--beige-color);
   padding: 160px 20px;
@@ -79,14 +94,21 @@ body {
   color: var(--darkest-color);
 }
 
+.social-links a {
+  color: var(--darkest-color);
+  font-size: 35px;
+  padding: 10px;
+  padding-top: 15px;
+}
+
 @media (max-width: 900px) {
+  nav a {
+    font-size: 13px;
+  }
   .hero {
     padding: 80px 10px;
   }
   .hero h1 {
-    font-size: 64px;
-  }
-  .links {
-    padding: 20px;
+    font-size: 60px;
   }
 }
