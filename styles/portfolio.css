@@ -3,7 +3,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
 :root {
-  --background-color: #9ea3b0;
+  --background-color: #ebbab9;
   --darkest-color: #546a7b;
   --pink-color: #fae1df;
   --beige-color: #e4c3ad;
@@ -12,7 +12,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 body {
-  background: var(--beige-color);
+  background: var(--background-color);
 }
 
 nav {
@@ -30,7 +30,7 @@ nav a {
   font-size: 20px;
 }
 .hero {
-  background: var(--beige-color);
+  background: var(--background-color);
   padding: 160px 20px;
 }
 
@@ -48,7 +48,7 @@ nav a {
 }
 
 .content-container {
-  background: var(--beige-color);
+  background: var(--background-color);
   padding: 50px 20px;
 }
 
